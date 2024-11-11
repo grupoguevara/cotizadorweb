@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /*min-height: 100vh;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e5f7;background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px); background-size: 20px 20px; background-position: 0 0,10px 10px;
+    
+}
+
+form {
+    margin-top: 10px;
+    padding: 20px 20px ;
+    background: white;
+    /*box-shadow: 0 0 20px rgb(0, 0, 0, 0.8);*/
+    border-radius: 10px;
+    text-align: center;
+    width: 360px;
+}
+
+form h1 {
+    font-weight: 400;
+    color: black;
+    font-size: 23px;
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.input-grupo {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: #efefef;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: black;
+}
+
+::placeholder {
+    color:gray;
+    font-size: 18px;
+}
+
+:focus {
+    outline: 1px solid #FFD524;
+}
+
+button {
+    background: #FFD524;
+    border: none;
+    padding: 5px 14px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e6bf1e;
+}
+
+button:focus {
+    background: #e6bf1e;
+}
+
+button:active {
+    background: #b6b6b6;
+
+}
+
+.lblcalprima {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0px 0px 0px 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.lbltoprima {
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.lbl00 {
+    padding: 1px 3px;
+    background: black;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.lbl03 {
+    padding: 1px 5px;
+    text-align: left;
+    font-size: 18px;
+}
+
+/*.lbl03t {
+    padding: 1px 5px;
+    background: #efefef;
+    text-align: left;
+    font-size: 16px;    
+}*/
+
+.lbl06 {
+    padding: 1px 5px;
+    background: #efefef;
+    text-align: left;
+    font-size: 18px;    
+}
+
+.lbl12 {
+    padding: 1px 5px;
+    text-align: left;
+    font-size: 18px;    
+}
+
+.lbl18 {
+    padding: 1px 5px;
+    background: #efefef;
+    text-align: left;
+    font-size: 18px;    
+}
+
+.lbl24 {
+    padding: 1px 5px;
+    text-align: left;
+    font-size: 18px;    
+}
+
+.btnnvacot {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
